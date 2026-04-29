@@ -1,0 +1,19 @@
+{
+  "name": "anime-decider-backend",
+  "version": "1.0.0",
+  "description": "Serverless backend API for AnimeDecider Pro",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
